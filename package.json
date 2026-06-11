@@ -1,0 +1,32 @@
+{
+  "name": "compute-ledger-reconciliation-kit",
+  "version": "0.1.0",
+  "description": "Provider-neutral task, ledger, and usage reconciliation utilities for credit-based compute products.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "lint:forbidden": "node scripts/check-forbidden-terms.mjs"
+  },
+  "keywords": [
+    "compute",
+    "ledger",
+    "billing",
+    "reconciliation",
+    "tasks",
+    "credits",
+    "agent-ready"
+  ],
+  "license": "MIT",
+  "author": "maijinzhineng",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maijinzhineng/compute-ledger-reconciliation-kit.git"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
